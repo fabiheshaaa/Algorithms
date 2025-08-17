@@ -1,15 +1,12 @@
-//You are given a 2D grid with R
-// rows and H
-// columns.
-
+//You are given a 2D grid with rows and H columns.
 //Each cell in the grid is one of the following:
-//. — Empty cell: You can move into this cell.
-//D — Cell with a diamond: You can move into this cell and collect the diamond.
-//# — Obstacle: You cannot move into this cell.
+// . — Empty cell: You can move into this cell.
+// D — Cell with a diamond: You can move into this cell and collect the diamond.
+// # — Obstacle: You cannot move into this cell.
 //You may start from any non-obstacle cell and move in the four directions: up, down, left, or right. Your goal is to choose a starting cell such that you can collect the maximum number of diamonds
 
 //Input
-//The first line contains two integers R and H (1≤R,H≤1000)
+//The first line contains two integers R and H (1≤R, H≤1000)
 // — the number of rows and columns of the grid. The next R lines each contain H
 // characters, describing the grid.
 
@@ -71,3 +68,4 @@ public class diamond {
 
     }
 }
+
